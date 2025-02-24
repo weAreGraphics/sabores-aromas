@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
             let containerDulce = document.getElementById("dulces");
             let containerDestacadoSimple = document.getElementById("destacados-simple");
             let containerDestacadoDoble = document.getElementById("destacados-dobles");
-            let categories = document.getElementById("categorias");
+            //let categories = document.getElementById("categorias");
 
             
             
@@ -155,6 +155,7 @@ document.addEventListener("DOMContentLoaded", () => {
         */
 
             // Mostrar categorías
+            /*
             data.productCategories.forEach(categoria => {
                 let div = document.createElement("div");
                 div.classList.add("category");
@@ -166,6 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 div.appendChild(anchor);
                 categories.appendChild(div);
             });
+            */
 
             $('.vitrina').owlCarousel({
                 loop: true,

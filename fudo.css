@@ -34,7 +34,7 @@ header h1 span {
   color: #E6332A;
 }
 header p {
-  font-family: "Neue Montreal";
+  font-family: "Neue Montreal" !important;
   font-weight: bolder;
 }
 
@@ -113,7 +113,7 @@ nav img {
      object-fit: contain;
 }
 .product p {
-  font-family: "Neue Montreal";
+  font-family: "Neue Montreal" !important;
   padding: 5px 10px;
   color: white;
   font-weight: 600;
@@ -125,7 +125,7 @@ nav img {
   color: white;
   padding: 0 0;
   font-size: 2rem;
-  font-family: "Rangile";
+  font-family: "Rangile" !important;
   font-weight: lighter;
   border-top: 2px solid red;
   padding-top: 10px;
@@ -179,4 +179,13 @@ section .irAtodo {
   justify-content: center;
   align-items: flex-start;
   gap: 10px;
+}
+
+#productos-categoria-7 .product {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 0 !important;
+  gap: 0;
+  border-bottom: 1px dotted white;
 }/*# sourceMappingURL=fudo.css.map */
