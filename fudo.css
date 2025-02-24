@@ -34,7 +34,7 @@ header h1 span {
   color: #E6332A;
 }
 header p {
-  font-family: "Neue Montreal" !important;
+  font-family: "Montserrat", serif;
   font-weight: bolder;
 }
 
@@ -113,7 +113,7 @@ nav img {
      object-fit: contain;
 }
 .product p {
-  font-family: "Neue Montreal" !important;
+  font-family: "Montserrat", serif;
   padding: 5px 10px;
   color: white;
   font-weight: 600;
