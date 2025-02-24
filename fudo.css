@@ -1,11 +1,12 @@
 * {
-  font-family: rangile;
+  font-family: "Rangile";
   color: white;
   font-weight: 300;
 }
 
 html {
   background-color: black;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -33,7 +34,7 @@ header h1 span {
   color: #E6332A;
 }
 header p {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Neue Montreal";
 }
 
 nav {
@@ -111,7 +112,7 @@ nav img {
      object-fit: contain;
 }
 .product p {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Neue Montreal";
   padding: 5px 10px;
   color: white;
   font-weight: 600;
@@ -123,7 +124,11 @@ nav img {
   color: white;
   padding: 0 0;
   font-size: 2rem;
-  font-family: rangile;
+  font-family: "Rangile";
+  font-weight: lighter;
+  border-top: 2px solid red;
+  padding-top: 10px;
+  border-radius: 0;
 }
 
 section {
@@ -132,15 +137,32 @@ section {
 }
 section .titulo {
   width: 100%;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
+  margin-bottom: 10px;
 }
 section .irAtodo {
+  font-family: "Rangile";
   text-align: center;
   background-color: #E6332A;
   padding: 10px;
   width: -moz-fit-content;
   width: fit-content;
+  margin: auto;
+  font-size: 1.5rem;
+  display: flex;
+  text-decoration: none;
+}
+
+#dulces {
+  margin-bottom: 20px;
+}
+#dulces .product {
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
   margin: auto;
 }
 
@@ -149,10 +171,11 @@ section .irAtodo {
 #productos-categoria-10,
 #destacados-dobles,
 #destacados-simple,
-#antojos {
+#dulces {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
+  align-items: flex-start;
   gap: 10px;
 }/*# sourceMappingURL=fudo.css.map */
