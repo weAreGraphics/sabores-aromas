@@ -1,0 +1,158 @@
+* {
+  font-family: rangile;
+  color: white;
+  font-weight: 300;
+}
+
+html {
+  background-color: black;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+}
+header img {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+header h1 {
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+header h1 span {
+  color: #E6332A;
+}
+header p {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-pricipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  gap: 20px;
+  margin-top: 20px;
+}
+nav .nav-pricipal a {
+  text-decoration: none;
+}
+nav .nav-pricipal a section {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+nav .nav-pricipal a section img {
+  width: 80px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+nav .nav-pricipal a section p {
+  font-size: 1.6rem;
+  margin-top: -10px;
+}
+nav .nav-pricipal section {
+  margin-bottom: 0px;
+}
+nav .nav-secundario {
+  width: 90%;
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+nav .nav-secundario a {
+  background-color: #E6332A;
+  display: flex;
+  border-radius: 10px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+nav img {
+  width: 90%;
+  border-radius: 20px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  border-radius: 5px;
+  width: 45%;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.product img {
+  border-radius: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.product p {
+  font-family: "Helvetica Neue", sans-serif;
+  padding: 5px 10px;
+  color: white;
+  font-weight: 600;
+  display: block;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+.product p:nth-child(3) {
+  color: white;
+  padding: 0 0;
+  font-size: 2rem;
+  font-family: rangile;
+}
+
+section {
+  margin-bottom: 40px;
+  width: 100%;
+}
+section .titulo {
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+}
+section .irAtodo {
+  text-align: center;
+  background-color: #E6332A;
+  padding: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+#productos-categoria-8,
+#productos-categoria-7,
+#productos-categoria-10,
+#destacados-dobles,
+#destacados-simple,
+#antojos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+}/*# sourceMappingURL=fudo.css.map */
