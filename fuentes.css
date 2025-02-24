@@ -2,22 +2,23 @@
     font-family: 'Rangile';
     src: url('fuentes/Rangile-Regular.eot');
     src: url('fuentes/Rangile-Regular.eot?#iefix') format('embedded-opentype'),
-        url('fuentes/Rangile-Regular.woff2') format('woff2'),
-        url('fuentes/Rangile-Regular.woff') format('woff'),
-        url('fuentes/Rangile-Regular.ttf') format('truetype'),
-        url('fuentes/Rangile-Regular.svg#Rangile-Regular') format('svg');
+         url('fuentes/Rangile-Regular.woff2') format('woff2'),
+         url('fuentes/Rangile-Regular.woff') format('woff'),
+         url('fuentes/Rangile-Regular.ttf') format('truetype'),
+         url('fuentes/Rangile-Regular.svg#Rangile-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-    
+}
 
+@font-face {
     font-family: 'Neue Montreal';
     src: url('fuentes/NeueMontreal-Regular.eot');
     src: url('fuentes/NeueMontreal-Regular.eot?#iefix') format('embedded-opentype'),
-        url('fuentes/NeueMontreal-Regular.woff2') format('woff2'),
-        url('fuentes/NeueMontreal-Regular.woff') format('woff'),
-        url('fuentes/NeueMontreal-Regular.ttf') format('truetype'),
-        url('fuentes/NeueMontreal-Regular.svg#NeueMontreal-Regular') format('svg');
+         url('fuentes/NeueMontreal-Regular.woff2') format('woff2'),
+         url('fuentes/NeueMontreal-Regular.woff') format('woff'),
+         url('fuentes/NeueMontreal-Regular.ttf') format('truetype'),
+         url('fuentes/NeueMontreal-Regular.svg#NeueMontreal-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
