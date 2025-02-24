@@ -114,7 +114,6 @@ nav img {
 }
 .product p {
   font-family: "Montserrat", serif;
-  padding: 5px 10px;
   color: white;
   font-weight: 600;
   display: block;
@@ -181,11 +180,18 @@ section .irAtodo {
   gap: 10px;
 }
 
+#productos-categoria-7 {
+  gap: 20px;
+}
 #productos-categoria-7 .product {
   display: flex;
   justify-content: space-between;
   width: 90%;
   margin-bottom: 0 !important;
-  gap: 0;
+  gap: 20px;
   border-bottom: 1px dotted white;
+  border-radius: 0;
+}
+#productos-categoria-7 .product p {
+  font-size: 0.9rem;
 }/*# sourceMappingURL=fudo.css.map */
