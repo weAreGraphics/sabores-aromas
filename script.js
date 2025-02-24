@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
             let container7 = document.getElementById("productos-categoria-7");
             let container8 = document.getElementById("productos-categoria-8");
             let container10 = document.getElementById("productos-categoria-10");
-            let containerAntojo = document.getElementById("antojos");
+            let containerDulce = document.getElementById("dulces");
             let containerDestacadoSimple = document.getElementById("destacados-simple");
             let containerDestacadoDoble = document.getElementById("destacados-dobles");
             let categories = document.getElementById("categorias");
@@ -63,9 +63,9 @@ document.addEventListener("DOMContentLoaded", () => {
             });
 
 
-            // Mostrar productos de la categoría con type: "antojos"
+            // Mostrar productos de la categoría con type: "dulces"
             data.products
-                .filter(producto => producto.type === "antojos")
+                .filter(producto => producto.type === "dulces")
                 .forEach(producto => {
                     let div = document.createElement("div");
                     div.classList.add("product");
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     div.appendChild(img);
                     div.appendChild(nombre);
                     div.appendChild(precio);
-                    containerAntojo.appendChild(div);
+                    containerDulce.appendChild(div);
                 });
 
             // Mostrar productos de la categoría con productCategoryId: 7
@@ -175,7 +175,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 categories.appendChild(div);
             });*/
 
-            $('.owl-carousel').owlCarousel({
+            $('.vitrina').owlCarousel({
                 loop: true,
                 margin: 10,
                 nav: false,
@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 autoplayTimeout: 3000,
                 responsive: {
                     0: {
-                        items: 1
+                        items: 2
                     },
                     600: {
                         items: 2
@@ -193,7 +193,25 @@ document.addEventListener("DOMContentLoaded", () => {
                     }
                 }
             });
-            
+
+            $('#dulces').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            });
         })
         .catch(error => console.error("Error al cargar API:", error));
 });
