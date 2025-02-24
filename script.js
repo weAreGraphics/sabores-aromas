@@ -87,16 +87,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
 
             // Mostrar productos de la categoría con productCategoryId: 7
-            /*
             data.products
             .filter(producto => producto.productCategoryId === 7)
             .forEach(producto => {
                 let div = document.createElement("div");
                 div.classList.add("product");
-
-                let img = document.createElement("img");
-                img.src = producto.image ? producto.image : "https://via.placeholder.com/50";
-                img.alt = producto.name;
 
                 let nombre = document.createElement("p");
                 nombre.textContent = `${producto.name}`;
@@ -104,12 +99,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 let precio = document.createElement("p");
                 precio.textContent = `$${producto.price}`;
 
-                div.appendChild(img);
                 div.appendChild(nombre);
                 div.appendChild(precio);
                 container7.appendChild(div);
             });
-            */
 
         // Mostrar productos de la categoría con productCategoryId: 8
         /*
@@ -162,7 +155,6 @@ document.addEventListener("DOMContentLoaded", () => {
         */
 
             // Mostrar categorías
-            /*
             data.productCategories.forEach(categoria => {
                 let div = document.createElement("div");
                 div.classList.add("category");
@@ -173,7 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 div.appendChild(anchor);
                 categories.appendChild(div);
-            });*/
+            });
 
             $('.vitrina').owlCarousel({
                 loop: true,
@@ -183,7 +175,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 autoplayTimeout: 3000,
                 responsive: {
                     0: {
-                        items: 2
+                        items: 1
                     },
                     600: {
                         items: 2
