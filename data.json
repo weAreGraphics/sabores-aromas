@@ -5,7 +5,7 @@
             "description": null,
             "id": 58,
             "name": "Bon Bon",
-            "type": "antojos",
+            "type": "",
             "position": 4900000,
             "price": 300.0,
             "productCategoryId": 9,
@@ -18,7 +18,7 @@
             "description": null,
             "id": 59,
             "name": "Carezza",
-            "type": "antojos",
+            "type": "",
             "position": 5000000,
             "price": 500.0,
             "productCategoryId": 9,
@@ -566,7 +566,7 @@
             "isAvailable": true,
             "description": "",
             "id": 39,
-            "name": "Café Café helado Simple",
+            "name": "Café helado Simple",
             "position": 800000,
             "price": 3900.0,
             "productCategoryId": 7,
@@ -1031,7 +1031,8 @@
             "productCategoryId": 5,
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/cafe/cafe-cappuccino.webp"
+            "image": "img/productos/cafe/cafe-cappuccino.webp",
+            "type": "dulces"
         },
         {
             "isAvailable": true,
@@ -1043,7 +1044,8 @@
             "productCategoryId": 5,
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/cafe/cafe-cappuccino.webp"
+            "image": "img/productos/cafe/cafe-cappuccino.webp",
+            "type": "dulces"
         },
         {
             "isAvailable": true,
@@ -1091,7 +1093,8 @@
             "productCategoryId": 5,
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/cafe/cafe-cappuccino.webp"
+            "image": "img/productos/dulces/torta-azul.webp",
+            "type": "dulces"
         },
         {
             "isAvailable": true,
