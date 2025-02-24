@@ -1,10 +1,9 @@
-
 //colores
 $rojo: #E6332A
 
 //fuentes
 $fuente-primaria: 'Rangile'
-$fuente-secundaria: 'Helvetica Neue', sans-serif
+$fuente-secundaria: 'Neue Montreal' !important
     
 //flex
 @mixin flex-center()
@@ -22,10 +21,11 @@ $fuente-secundaria: 'Helvetica Neue', sans-serif
     color: white
     font-weight: 300
 
-
-
+//html
 html
     background-color: black
+    scroll-behavior: smooth
+
 
 body
     @include flex-center-colunm()
@@ -46,6 +46,7 @@ header
             color: $rojo
     p
         font-family: $fuente-secundaria
+        font-weight: bolder
 nav
     @include flex-center-colunm()
     align-items: center
@@ -120,6 +121,10 @@ nav
             padding: 0 0
             font-size: 2rem
             font-family: $fuente-primaria
+            font-weight: lighter
+            border-top: 2px solid red
+            padding-top: 10px
+            border-radius: 0
     
 //secciones
 section
@@ -127,25 +132,42 @@ section
     width: 100%
     .titulo
         width: 100%
-        font-size: 2rem
+        font-size: 2.3rem
         text-align: center
+        margin-bottom: 10px
     .irAtodo
+        font-family: $fuente-primaria
         text-align: center
         background-color: $rojo
         padding: 10px
+        width: -moz-fit-content
         width: fit-content
         margin: auto
+        font-size: 1.5rem
+        display: flex
+        text-decoration: none
 
 .vitrina
+
+#dulces
+    margin-bottom: 20px
+    .product
+        width: 80%
+        display: flex
+        flex-flow: column
+        justify-content: center
+        align-items: center
+        margin: auto
 
 #productos-categoria-8,
 #productos-categoria-7,
 #productos-categoria-10,
 #destacados-dobles,
 #destacados-simple,
-#antojos
+#dulces
     display: flex
     flex-wrap: wrap
     width: 100%
     justify-content: center
+    align-items: flex-start
     gap: 10px
