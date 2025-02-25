@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
             let container8 = document.getElementById("productos-categoria-8");
             let container10 = document.getElementById("productos-categoria-10");
             let containerDulce = document.getElementById("dulces");
+            let containerBebidas = document.getElementById("bebidas");
             let containerDestacadoSimple = document.getElementById("destacados-simple");
             let containerDestacadoDoble = document.getElementById("destacados-dobles");
             //let categories = document.getElementById("categorias");
@@ -85,6 +86,24 @@ document.addEventListener("DOMContentLoaded", () => {
                     div.appendChild(precio);
                     containerDulce.appendChild(div);
                 });
+
+             // Mostrar productos de la categoría con type: "bebidas"
+             data.products
+             .filter(producto => producto.type === "bebidas")
+             .forEach(producto => {
+                 let div = document.createElement("div");
+                 div.classList.add("product");
+
+                let nombre = document.createElement("p");
+                nombre.textContent = `${producto.name}`;
+
+                let precio = document.createElement("p");
+                precio.textContent = `$${producto.price}`;
+
+                div.appendChild(nombre);
+                div.appendChild(precio);
+                containerBebidas.appendChild(div);
+             });
 
             // Mostrar productos de la categoría con productCategoryId: 7
             data.products

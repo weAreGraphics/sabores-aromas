@@ -171,7 +171,8 @@ section .irAtodo {
 #productos-categoria-10,
 #destacados-dobles,
 #destacados-simple,
-#dulces {
+#dulces,
+#bebidas {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -180,10 +181,12 @@ section .irAtodo {
   gap: 10px;
 }
 
-#productos-categoria-7 {
+#productos-categoria-7,
+#bebidas {
   gap: 20px;
 }
-#productos-categoria-7 .product {
+#productos-categoria-7 .product,
+#bebidas .product {
   display: flex;
   justify-content: space-between;
   width: 90%;
@@ -192,8 +195,17 @@ section .irAtodo {
   border-bottom: 1px dotted white;
   border-radius: 0;
 }
-#productos-categoria-7 .product p {
+#productos-categoria-7 .product p,
+#bebidas .product p {
   font-size: 0.9rem;
+}
+
+#cartaCompleta {
+  width: 100%;
+  margin-bottom: 0;
+}
+#cartaCompleta .titulo {
+  margin-bottom: 0;
 }
 
 .accordion {
@@ -208,6 +220,7 @@ section .irAtodo {
   margin: 1px 0 0;
   padding: 2px 15px;
   transition: 0.2s ease-in;
+  margin-bottom: 10px;
 }
 
 .accordion-trigger:hover {

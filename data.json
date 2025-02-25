@@ -67,6 +67,7 @@
             "description": null,
             "id": 64,
             "name": "Bebida bilz",
+            "type": "bebidas",
             "position": 5500000,
             "price": 1400.0,
             "productCategoryId": 10,
@@ -79,6 +80,7 @@
             "description": null,
             "id": 62,
             "name": "Bebida Crush",
+            "type": "bebidas",
             "position": 5300000,
             "price": 1400.0,
             "productCategoryId": 10,
@@ -91,6 +93,7 @@
             "description": null,
             "id": 61,
             "name": "Bebida kem",
+            "type": "bebidas",
             "position": 5200000,
             "price": 1400.0,
             "productCategoryId": 10,
@@ -103,6 +106,7 @@
             "description": null,
             "id": 65,
             "name": "Bebida limon soda",
+            "type": "bebidas",
             "position": 5600000,
             "price": 1400.0,
             "productCategoryId": 10,
@@ -115,6 +119,7 @@
             "description": null,
             "id": 63,
             "name": "Bebida pap",
+            "type": "bebidas",
             "position": 5400000,
             "price": 1400.0,
             "productCategoryId": 10,
@@ -127,6 +132,7 @@
             "description": null,
             "id": 60,
             "name": "Bebida Pepsi Lata",
+            "type": "bebidas",
             "position": 5100000,
             "price": 1400.0,
             "productCategoryId": 10,
@@ -1396,6 +1402,7 @@
         {
             "id": 10,
             "name": "Bebidas",
+            "type": "bebidas",
             "parentId": null,
             "position": 200000,
             "iconName": null
@@ -1426,7 +1433,8 @@
             "name": "ICE",
             "parentId": null,
             "position": 1000000,
-            "iconName": "bebidas-jugos"
+            "iconName": "bebidas-jugos",
+            "type": "bebidas"
         },
         {
             "id": 13,
