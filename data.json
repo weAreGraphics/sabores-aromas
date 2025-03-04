@@ -34,6 +34,7 @@
             "position": 7000000,
             "price": 1000.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -46,6 +47,7 @@
             "position": 7100000,
             "price": 1000.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -58,6 +60,7 @@
             "position": 7400000,
             "price": 2500.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -71,6 +74,7 @@
             "position": 5500000,
             "price": 1400.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/64"
@@ -84,6 +88,7 @@
             "position": 5300000,
             "price": 1400.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/62"
@@ -97,6 +102,7 @@
             "position": 5200000,
             "price": 1400.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/61"
@@ -110,6 +116,7 @@
             "position": 5600000,
             "price": 1400.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/65"
@@ -123,6 +130,7 @@
             "position": 5400000,
             "price": 1400.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/63"
@@ -136,6 +144,7 @@
             "position": 5100000,
             "price": 1400.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/60"
@@ -148,6 +157,7 @@
             "position": 5700000,
             "price": 1400.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/66"
@@ -160,6 +170,7 @@
             "position": 8000000,
             "price": 1500.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/89"
@@ -172,6 +183,7 @@
             "position": 7500000,
             "price": 2000.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -184,6 +196,7 @@
             "position": 9800000,
             "price": 3000.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/107"
@@ -196,6 +209,7 @@
             "position": 10000000,
             "price": 3000.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/109"
@@ -208,6 +222,7 @@
             "position": 9900000,
             "price": 3000.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/108"
@@ -220,6 +235,7 @@
             "position": 10100000,
             "price": 3000.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/110"
@@ -232,6 +248,7 @@
             "position": 9700000,
             "price": 3000.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/106"
@@ -244,6 +261,7 @@
             "position": 6200000,
             "price": 1500.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/71"
@@ -256,6 +274,7 @@
             "position": 6300000,
             "price": 1500.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/72"
@@ -268,6 +287,7 @@
             "position": 6100000,
             "price": 1500.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/70"
@@ -280,6 +300,7 @@
             "position": 6000000,
             "price": 1500.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/69"
@@ -292,6 +313,7 @@
             "position": 6400000,
             "price": 1400.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/73"
@@ -304,6 +326,7 @@
             "position": 6500000,
             "price": 1400.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/74"
@@ -316,6 +339,7 @@
             "position": 6600000,
             "price": 1400.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/75"
@@ -328,6 +352,7 @@
             "position": 6800000,
             "price": 1400.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/77"
@@ -340,6 +365,7 @@
             "position": 6700000,
             "price": 1400.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/255390/common/products/76"
@@ -352,6 +378,7 @@
             "position": 5800000,
             "price": 2500.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -364,6 +391,7 @@
             "position": 5900000,
             "price": 2000.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -374,8 +402,10 @@
             "id": 97,
             "name": "Super colageno",
             "position": 8800000,
+            "type": "bebidas",
             "price": 2500.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -388,9 +418,11 @@
             "position": 7200000,
             "price": 1000.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/cafe/cafe-cappuccino.webp"
+            "image": "img/productos/cafe/cafe-cappuccino.webp",
+            "type": "bebidas"
         },
         {
             "isAvailable": true,
@@ -400,6 +432,7 @@
             "position": 7300000,
             "price": 1000.0,
             "productCategoryId": 10,
+            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -759,6 +792,7 @@
             "position": 8400000,
             "price": 1500.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -771,6 +805,7 @@
             "position": 8700000,
             "price": 2000.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -783,6 +818,7 @@
             "position": 3300000,
             "price": 3000.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -795,6 +831,7 @@
             "position": 11500000,
             "price": 3000.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -807,6 +844,7 @@
             "position": 3400000,
             "price": 1900.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -819,6 +857,7 @@
             "position": 9600000,
             "price": 1900.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -831,6 +870,7 @@
             "position": 9500000,
             "price": 1900.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -843,6 +883,7 @@
             "position": 3900000,
             "price": 1000.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -855,6 +896,7 @@
             "position": 11900000,
             "price": 1500.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -867,6 +909,7 @@
             "position": 11800000,
             "price": 1500.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -879,6 +922,7 @@
             "position": 4000000,
             "price": 1300.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -887,10 +931,11 @@
             "isAvailable": true,
             "description": null,
             "id": 126,
-            "name": "Muffin arándano relleno de frambuesa",
+            "name": "Muffin arándano frambuesa",
             "position": 11700000,
             "price": 1900.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -903,6 +948,7 @@
             "position": 9300000,
             "price": 1900.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -915,6 +961,7 @@
             "position": 9100000,
             "price": 1900.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -927,6 +974,7 @@
             "position": 9000000,
             "price": 1900.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -939,6 +987,7 @@
             "position": 9400000,
             "price": 1900.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -951,6 +1000,7 @@
             "position": 9200000,
             "price": 1900.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -963,6 +1013,7 @@
             "position": 10500000,
             "price": 1900.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -975,6 +1026,7 @@
             "position": 4100000,
             "price": 1900.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -987,6 +1039,7 @@
             "position": 8500000,
             "price": 2000.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -999,6 +1052,7 @@
             "position": 4200000,
             "price": 2000.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -1011,6 +1065,7 @@
             "position": 4300000,
             "price": 1700.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -1023,6 +1078,7 @@
             "position": 300000,
             "price": 1000.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -1035,6 +1091,7 @@
             "position": 10400000,
             "price": 12000.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp",
@@ -1048,6 +1105,7 @@
             "position": 4600000,
             "price": 1500.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp",
@@ -1061,6 +1119,7 @@
             "position": 400000,
             "price": 3000.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -1073,6 +1132,7 @@
             "position": 4700000,
             "price": 2700.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -1085,6 +1145,7 @@
             "position": 10600000,
             "price": 2000.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -1097,6 +1158,7 @@
             "position": 11400000,
             "price": 2500.0,
             "productCategoryId": 5,
+            "type": "todoDulces",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/dulces/torta-azul.webp",
@@ -1158,6 +1220,7 @@
             "position": 3200000,
             "price": 2000.0,
             "productCategoryId": 6,
+            "type": "salados",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -1170,6 +1233,7 @@
             "position": 10900000,
             "price": 2990.0,
             "productCategoryId": 6,
+            "type": "salados",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -1194,6 +1258,7 @@
             "position": 3600000,
             "price": 2300.0,
             "productCategoryId": 6,
+            "type": "salados",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -1218,6 +1283,7 @@
             "position": 3800000,
             "price": 2800.0,
             "productCategoryId": 6,
+            "type": "salados",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"

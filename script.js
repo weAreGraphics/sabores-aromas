@@ -5,17 +5,19 @@ document.addEventListener("DOMContentLoaded", () => {
             return response.json();
         })
         .then(data => {
-            let container7 = document.getElementById("productos-categoria-7");
-            let container8 = document.getElementById("productos-categoria-8");
-            let container10 = document.getElementById("productos-categoria-10");
-            let containerDulce = document.getElementById("dulces");
-            let containerBebidas = document.getElementById("bebidas");
+            
+            //let container8 = document.getElementById("productos-categoria-8");
+            let containerTodoDulce = document.getElementById("todoDulces");
+            let containerDulce = document.getElementById("destacadoDulces");
+            let containerSalados = document.getElementById("destacadoSalados");
+
+            //listas
+            let listaCafe = document.getElementById("listasCafe");
+            let listaBebidas = document.getElementById("listaBebidas");
             let containerDestacadoSimple = document.getElementById("destacados-simple");
             let containerDestacadoDoble = document.getElementById("destacados-dobles");
             //let categories = document.getElementById("categorias");
 
-            
-            
             // Mostrar productos de la categoría con type: "destacados-dobles"
             data.products
                 .filter(producto => producto.type === "destacado")
@@ -39,32 +41,30 @@ document.addEventListener("DOMContentLoaded", () => {
                     containerDestacadoDoble.appendChild(div);
                 });
 
-
-                // Mostrar productos de la categoría con type: "destacados-simple"
+            // Mostrar productos de la categoría con type: "destacados-simple"
             data.products
-            .filter(producto => producto.type === "destacadoSimple")
-            .forEach(producto => {
-                let div = document.createElement("div");
-                div.classList.add("product");
+                .filter(producto => producto.type === "destacadoSimple")
+                .forEach(producto => {
+                    let div = document.createElement("div");
+                    div.classList.add("product");
 
-                let img = document.createElement("img");
-                img.src = producto.image ? producto.image : "https://via.placeholder.com/50";
-                img.alt = producto.name;
+                    let img = document.createElement("img");
+                    img.src = producto.image ? producto.image : "https://via.placeholder.com/50";
+                    img.alt = producto.name;
 
-                let nombre = document.createElement("p");
-                nombre.textContent = `${producto.name}`;
+                    let nombre = document.createElement("p");
+                    nombre.textContent = `${producto.name}`;
 
-                let precio = document.createElement("p");
-                precio.textContent = `$${producto.price}`;
+                    let precio = document.createElement("p");
+                    precio.textContent = `$${producto.price}`;
 
-                div.appendChild(img);
-                div.appendChild(nombre);
-                div.appendChild(precio);
-                containerDestacadoSimple.appendChild(div);
-            });
+                    div.appendChild(img);
+                    div.appendChild(nombre);
+                    div.appendChild(precio);
+                    containerDestacadoSimple.appendChild(div);
+                });
 
-
-            // Mostrar productos de la categoría con type: "dulces"
+            // Carrusel productos de la categoría con type: "dulces"
             data.products
                 .filter(producto => producto.type === "dulces")
                 .forEach(producto => {
@@ -87,106 +87,86 @@ document.addEventListener("DOMContentLoaded", () => {
                     containerDulce.appendChild(div);
                 });
 
-             // Mostrar productos de la categoría con type: "bebidas"
-             data.products
-             .filter(producto => producto.type === "bebidas")
-             .forEach(producto => {
-                 let div = document.createElement("div");
-                 div.classList.add("product");
-
-                let nombre = document.createElement("p");
-                nombre.textContent = `${producto.name}`;
-
-                let precio = document.createElement("p");
-                precio.textContent = `$${producto.price}`;
-
-                div.appendChild(nombre);
-                div.appendChild(precio);
-                containerBebidas.appendChild(div);
-             });
-
-            // Mostrar productos de la categoría con productCategoryId: 7
+            // CarruselMostrar productos de la categoría con type: "salados"
             data.products
-            .filter(producto => producto.productCategoryId === 7)
-            .forEach(producto => {
-                let div = document.createElement("div");
-                div.classList.add("product");
+                .filter(producto => producto.type === "salados")
+                .forEach(producto => {
+                    let div = document.createElement("div");
+                    div.classList.add("product");
 
-                let nombre = document.createElement("p");
-                nombre.textContent = `${producto.name}`;
+                    let img = document.createElement("img");
+                    img.src = producto.image ? producto.image : "https://via.placeholder.com/50";
+                    img.alt = producto.name;
 
-                let precio = document.createElement("p");
-                precio.textContent = `$${producto.price}`;
+                    let nombre = document.createElement("p");
+                    nombre.textContent = `${producto.name}`;
 
-                div.appendChild(nombre);
-                div.appendChild(precio);
-                container7.appendChild(div);
-            });
+                    let precio = document.createElement("p");
+                    precio.textContent = `$${producto.price}`;
 
-        // Mostrar productos de la categoría con productCategoryId: 8
-        /*
-        data.products
-            .filter(producto => producto.productCategoryId === 8)
-            .forEach(producto => {
-                let div = document.createElement("div");
-                div.classList.add("product");
+                    div.appendChild(img);
+                    div.appendChild(nombre);
+                    div.appendChild(precio);
+                    containerSalados.appendChild(div);
+                });
 
-                let img = document.createElement("img");
-                img.src = producto.image ? producto.image : "https://via.placeholder.com/50";
-                img.alt = producto.name;
+            
+            // Mostrar productos de la categoría con type: "todoDulces"
+            data.products
+                .filter(producto => producto.type === "todoDulces")
+                .forEach(producto => {
+                    let div = document.createElement("div");
+                    div.classList.add("product");
 
-                let nombre = document.createElement("p");
-                nombre.textContent = `${producto.name}`;
+                    let nombre = document.createElement("p");
+                    nombre.textContent = `${producto.name}`;
 
-                let precio = document.createElement("p");
-                precio.textContent = `$${producto.price}`;
+                    let precio = document.createElement("p");
+                    precio.textContent = `$${producto.price}`;
 
-                div.appendChild(img);
-                div.appendChild(nombre);
-                div.appendChild(precio);
-                container8.appendChild(div);
-            });
-        */
+                    div.appendChild(nombre);
+                    div.appendChild(precio);
+                    containerTodoDulce.appendChild(div);
+                });
 
-        // Mostrar productos de la categoría con productCategoryId: 10
-        /*
-        data.products
-            .filter(producto => producto.productCategoryId === 10)
-            .forEach(producto => {
-                let div = document.createElement("div");
-                div.classList.add("product");
+            // Mostrar lista productos de la categoría con productCategoryId: 7
+            data.products
+                .filter(producto => producto.productCategoryId === 7)
+                .forEach(producto => {
+                    let div = document.createElement("div");
+                    div.classList.add("product");
 
-                let img = document.createElement("img");
-                img.src = producto.image ? producto.image : "https://via.placeholder.com/50";
-                img.alt = producto.name;
+                    let nombre = document.createElement("p");
+                    nombre.textContent = `${producto.name}`;
 
-                let nombre = document.createElement("p");
-                nombre.textContent = `${producto.name}`;
+                    let precio = document.createElement("p");
+                    precio.textContent = `$${producto.price}`;
 
-                let precio = document.createElement("p");
-                precio.textContent = `$${producto.price}`;
+                    div.appendChild(nombre);
+                    div.appendChild(precio);
+                    listaCafe.appendChild(div);
+                });
 
-                div.appendChild(img);
-                div.appendChild(nombre);
-                div.appendChild(precio);
-                container10.appendChild(div);
-            });
-        */
+                
+            // Mostrar lista productos de la categoría con type: "bebidas"
+            data.products
+                .filter(producto => producto.type === "bebidas")
+                .forEach(producto => {
+                    let div = document.createElement("div");
+                    div.classList.add("product");
 
-            // Mostrar categorías
-            /*
-            data.productCategories.forEach(categoria => {
-                let div = document.createElement("div");
-                div.classList.add("category");
+                    let nombre = document.createElement("p");
+                    nombre.textContent = `${producto.name}`;
 
-                let anchor = document.createElement("a");
-                anchor.href = `#category-${categoria.id}`;
-                anchor.textContent = categoria.name;
+                    let precio = document.createElement("p");
+                    precio.textContent = `$${producto.price}`;
 
-                div.appendChild(anchor);
-                categories.appendChild(div);
-            });
-            */
+                    div.appendChild(nombre);
+                    div.appendChild(precio);
+                    listaBebidas.appendChild(div);
+                });
+
+                
 
             $('.vitrina').owlCarousel({
                 loop: true,
@@ -207,7 +187,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             });
 
-            $('#dulces').owlCarousel({
+            $('#destacadoDulces').owlCarousel({
                 loop: true,
                 margin: 10,
                 nav: false,
@@ -225,23 +205,41 @@ document.addEventListener("DOMContentLoaded", () => {
                     }
                 }
             });
-            
+
+            $('#destacadoSalados').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            });
+
             $(function() {
                 $('.accordion-content').hide();
-              
+
                 $('.accordion').on('click', '.accordion-trigger', function(e) {
-                  e.preventDefault();
-              
-                  $('.accordion-content:visible').slideUp(600);
-              
-                  $(this)
-                    .next('.accordion-content')
-                    .not(':animated')
-                    .slideToggle(300);
+                    e.preventDefault();
+
+                    $('.accordion-content:visible').slideUp(600);
+
+                    $(this)
+                        .next('.accordion-content')
+                        .not(':animated')
+                        .slideToggle(300);
                 });
-              });
+            });
 
         })
         .catch(error => console.error("Error al cargar API:", error));
 });
-

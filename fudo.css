@@ -9,6 +9,10 @@ html {
   scroll-behavior: smooth;
 }
 
+p {
+  font-size: 1rem !important;
+}
+
 body {
   display: flex;
   flex-flow: column;
@@ -68,7 +72,7 @@ nav .nav-pricipal a section img {
      object-fit: contain;
 }
 nav .nav-pricipal a section p {
-  font-size: 1.6rem;
+  font-size: 1.6rem !important;
   margin-top: -10px;
 }
 nav .nav-pricipal section {
@@ -123,7 +127,7 @@ nav img {
 .product p:nth-child(3) {
   color: white;
   padding: 0 0;
-  font-size: 2rem;
+  font-size: 2rem !important;
   font-family: "Rangile" !important;
   font-weight: lighter;
   border-top: 2px solid red;
@@ -154,10 +158,12 @@ section .irAtodo {
   text-decoration: none;
 }
 
-#dulces {
+#destacadoDulces,
+#destacadoSalado {
   margin-bottom: 20px;
 }
-#dulces .product {
+#destacadoDulces .product,
+#destacadoSalado .product {
   width: 80%;
   display: flex;
   flex-flow: column;
@@ -166,13 +172,18 @@ section .irAtodo {
   margin: auto;
 }
 
-#productos-categoria-8,
-#productos-categoria-7,
-#productos-categoria-10,
 #destacados-dobles,
 #destacados-simple,
 #dulces,
-#bebidas {
+#destacadoDulces,
+#bebidas,
+#seccionDulce,
+#todoDulces,
+#seccionCafe,
+#seccionSalado,
+#destacadoSalado,
+#listasCafe,
+#listaBebidas {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -181,13 +192,17 @@ section .irAtodo {
   gap: 10px;
 }
 
-#productos-categoria-7,
-#bebidas {
+#bebidas,
+#todoDulces,
+#listasCafe,
+#listaBebidas {
   gap: 20px;
   margin-bottom: 20px;
 }
-#productos-categoria-7 .product,
-#bebidas .product {
+#bebidas .product,
+#todoDulces .product,
+#listasCafe .product,
+#listaBebidas .product {
   display: flex;
   justify-content: space-between;
   width: 90%;
@@ -195,10 +210,6 @@ section .irAtodo {
   gap: 20px;
   border-bottom: 1px dotted white;
   border-radius: 0;
-}
-#productos-categoria-7 .product p,
-#bebidas .product p {
-  font-size: 0.9rem;
 }
 
 #cartaCompleta {

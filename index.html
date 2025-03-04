@@ -41,7 +41,7 @@
                     <p>Dulces</p>
                 </section>
             </a>
-            <a href="#salado">
+            <a href="#destacadoSalado">
                 <section>
                     <img src="img/nav/salados.webp" alt="">
                     <p>Salados</p>
@@ -56,6 +56,7 @@
     </nav>
 
     <section id="seccionCafe">
+        <img src="img/nav/cafe.webp" alt="">
         <h2 class="titulo">Café Simple</h2>
         <div id="destacados-simple"></div>
         <a href="#listaCafe" class="irAtodo">Descúbrelos todos acá</a>
@@ -69,46 +70,60 @@
         </div>
     </section>  
 
+    <!-- lista dulces -->
+    <section id="seccionDulce">
+        <img src="img/nav/dulces.webp" alt="">
+        <h2 class="titulo" >¿Algo dulce?</h2>
+        <div id="destacadoDulces" class="owl-carousel owl-theme"></div>
+        <a href="#listadulces" class="irAtodo">Tenemos muchas tortas</a>
+    </section>
+
     <section>
         <h2 class="titulo">Café Doble</h2>
         <div id="destacados-dobles"></div>
         <a href="#listaCafe" class="irAtodo">Descúbrelos todos acá</a>
     </section>
    
-    <section id="seccionDulce">
-        <h2 class="titulo" >¿Algo dulce?</h2>
-        <div id="dulces" class="owl-carousel owl-theme"></div>
-        <a href="#" class="irAtodo">Tenemos muchas tortas</a>
+    <!-- lista salados -->
+    <section id="destacadoSalado">
+        <img src="img/nav/salados.webp" alt="">
+        <h2 class="titulo" >Prefieres salado</h2>
+        <div id="destacadoSalados" class="owl-carousel owl-theme"></div>
+        <a href="#listadulces" class="irAtodo">Tenemos muchas tortas</a>
     </section>
 
-    <!-- <h2>Lista de categorías</h2>
-    <div id="categorias"></div> -->
-
-    <section id="cartaCompleta">
-        <h2 class="titulo">Nuestra carta</h2>
-    </section>
-
+    <!-- lista de prodcutos -->
     <section>
+        <h2 class="titulo">Carta completa</h2>
         <ul class="accordion">
             <li>
-              <h2 id="listaCafe" class="accordion-trigger">Todos los cafés</h2>
+              <h2 id="listaCafe" class="accordion-trigger">Muchos cafés</h2>
               <div class="accordion-content">
-                <div id="productos-categoria-7"></div>
+                <div id="listasCafe"></div>
               </div>
             </li>
+
             <li>
-                <h2 id="listaCafe" class="accordion-trigger">Bebidas</h2>
+                <h2 id="listadulces" class="accordion-trigger">Tortas, muffins y donuts...</h2>
                 <div class="accordion-content">
-                  <div id="bebidas"></div>
+                  <div id="todoDulces"></div>
                 </div>
-              </li>
+            </li>
+
+
+            <li>
+                <h2 class="accordion-trigger">Jugos, bebidas y más</h2>
+                <div class="accordion-content">
+                  <div id="listaBebidas"></div>
+                </div>
+            </li>
+            
         </ul>
     </section>
 
-    
 
-    <!-- <h2>Productos de la categoría 10</h2>
-    <div id="productos-categoria-10"></div> -->
+
+    
 
 
     
