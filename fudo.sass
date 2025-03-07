@@ -26,12 +26,15 @@ $fuente-secundaria: "Montserrat", serif
 html
     background-color: black
     scroll-behavior: smooth
-
+    
 p
     font-size: 1rem !important
 body
     @include flex-center-colunm()
     align-items: center
+    display: none
+    @media (max-width: 400px)
+        display: flex
 
 header
     text-align: center
