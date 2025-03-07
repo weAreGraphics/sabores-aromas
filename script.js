@@ -7,6 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(data => {
             //let listaBebidas = document.getElementById("listaBebidas");
             let listasCafe = document.getElementById("listaCafe");
+            let listaTe = document.getElementById("listaTe");
+            let otrosLiquidos = document.getElementById("otrosLiquidos");
             //let container8 = document.getElementById("productos-categoria-8");
             let containerTodoDulce = document.getElementById("todoDulces");
             let containerDulce = document.getElementById("destacadoDulces");
@@ -34,6 +36,42 @@ document.addEventListener("DOMContentLoaded", () => {
                     div.appendChild(nombre);
                     div.appendChild(precio);
                     listasCafe.appendChild(div);
+                });
+            
+            //lista Té  
+            data.products
+            .filter(producto => producto.productCategoryId === 11)
+                .forEach(producto => {
+                    let div = document.createElement("div");
+                    div.classList.add("product");
+
+                    let nombre = document.createElement("p");
+                    nombre.textContent = `${producto.name}`;
+
+                    let precio = document.createElement("p");
+                    precio.textContent = `$${producto.price}`;
+
+                    div.appendChild(nombre);
+                    div.appendChild(precio);
+                    listaTe.appendChild(div);
+                });
+
+            //lista otros líquidos 
+            data.products
+            .filter(producto => producto.productCategoryId === 10)
+                .forEach(producto => {
+                    let div = document.createElement("div");
+                    div.classList.add("product");
+
+                    let nombre = document.createElement("p");
+                    nombre.textContent = `${producto.name}`;
+
+                    let precio = document.createElement("p");
+                    precio.textContent = `$${producto.price}`;
+
+                    div.appendChild(nombre);
+                    div.appendChild(precio);
+                    otrosLiquidos.appendChild(div);
                 });
 
             //lista dulces
