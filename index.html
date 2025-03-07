@@ -59,7 +59,7 @@
         <img src="img/nav/cafe.webp" alt="">
         <h2 class="titulo">Café Simple</h2>
         <div id="destacados-simple"></div>
-        <a href="#listaCafe" class="irAtodo">Descúbrelos todos acá</a>
+        <a href="#listaProductos" class="irAtodo">Descúbrelos todos acá</a>
     </section>
 
     <section>   
@@ -70,18 +70,18 @@
         </div>
     </section>  
 
-    <!-- lista dulces -->
+    <!-- carrusel dulces -->
     <section id="seccionDulce">
         <img src="img/nav/dulces.webp" alt="">
         <h2 class="titulo" >¿Algo dulce?</h2>
         <div id="destacadoDulces" class="owl-carousel owl-theme"></div>
-        <a href="#listadulces" class="irAtodo">Tenemos muchas tortas</a>
+        <a href="#listaProductos" class="irAtodo">Tenemos muchas tortas</a>
     </section>
 
     <section>
         <h2 class="titulo">Café Doble</h2>
         <div id="destacados-dobles"></div>
-        <a href="#listaCafe" class="irAtodo">Descúbrelos todos acá</a>
+        <a href="#listaProductos" class="irAtodo">Descúbrelos todos acá</a>
     </section>
    
     <!-- lista salados -->
@@ -89,37 +89,56 @@
         <img src="img/nav/salados.webp" alt="">
         <h2 class="titulo" >Prefieres salado</h2>
         <div id="destacadoSalados" class="owl-carousel owl-theme"></div>
-        <a href="#listadulces" class="irAtodo">Tenemos muchas tortas</a>
+        <a href="#listaProductos" class="irAtodo">Más salados acá</a>
     </section>
 
     <!-- lista de prodcutos -->
-    <section>
+    <section id="listaProductos">
         <h2 class="titulo">Carta completa</h2>
         <ul class="accordion">
             <li>
-              <h2 id="listaCafe" class="accordion-trigger">Muchos cafés</h2>
-              <div class="accordion-content">
-                <div id="listasCafe"></div>
+              <h2 class="accordion-trigger">Muchos cafés</h2>
+              <div id="listaCafe" class="accordion-content">
               </div>
             </li>
 
             <li>
-                <h2 id="listadulces" class="accordion-trigger">Tortas, muffins y donuts...</h2>
-                <div class="accordion-content">
+                <h2 class="accordion-trigger">Todo lo dulce</h2>
+                <div id="listaDulces" class="accordion-content">
+                </div>
+              </li>
+
+              <li>
+                <h2 class="accordion-trigger">Más salados</h2>
+                <div id="listaSalados" class="accordion-content">
+                </div>
+              </li>
+
+            <!-- <li>
+                <h2  class="accordion-trigger">Tortas, muffins y donuts...</h2>
+                <div id="listadulces" class="accordion-content">
                   <div id="todoDulces"></div>
                 </div>
-            </li>
-
+            </li> -->
+<!-- 
 
             <li>
                 <h2 class="accordion-trigger">Jugos, bebidas y más</h2>
                 <div class="accordion-content">
                   <div id="listaBebidas"></div>
                 </div>
-            </li>
+            </li> -->
             
         </ul>
     </section>
+
+
+    <footer>
+        <a href="https://www.instagram.com/cafeteria_sabores_y_aromas">
+            <img src="https://freesvg.org/img/new-instagram-logo-glyph.png" alt="">
+            <p>Síguenos en Instagram</p>
+        </a>
+    </footer>
 
 
 

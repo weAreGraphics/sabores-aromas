@@ -5,22 +5,79 @@ document.addEventListener("DOMContentLoaded", () => {
             return response.json();
         })
         .then(data => {
-            
+            //let listaBebidas = document.getElementById("listaBebidas");
+            let listasCafe = document.getElementById("listaCafe");
             //let container8 = document.getElementById("productos-categoria-8");
             let containerTodoDulce = document.getElementById("todoDulces");
             let containerDulce = document.getElementById("destacadoDulces");
+            let listaDulces = document.getElementById("listaDulces");
+            let listaSalados = document.getElementById("listaSalados");
             let containerSalados = document.getElementById("destacadoSalados");
-
-            //listas
-            let listaCafe = document.getElementById("listasCafe");
-            let listaBebidas = document.getElementById("listaBebidas");
+            //let containerBebidas = document.getElementById("bebidas");
             let containerDestacadoSimple = document.getElementById("destacados-simple");
             let containerDestacadoDoble = document.getElementById("destacados-dobles");
             //let categories = document.getElementById("categorias");
 
+            //lista café  
+            data.products
+            .filter(producto => producto.productCategoryId === 7 || producto.productCategoryId === 8)
+                .forEach(producto => {
+                    let div = document.createElement("div");
+                    div.classList.add("product");
+
+                    let nombre = document.createElement("p");
+                    nombre.textContent = `${producto.name}`;
+
+                    let precio = document.createElement("p");
+                    precio.textContent = `$${producto.price}`;
+
+                    div.appendChild(nombre);
+                    div.appendChild(precio);
+                    listasCafe.appendChild(div);
+                });
+
+            //lista dulces
+            data.products
+            .filter(producto => producto.productCategoryId === 5)
+            .forEach(producto => {
+                let div = document.createElement("div");
+                div.classList.add("product");
+
+                let nombre = document.createElement("p");
+                nombre.textContent = `${producto.name}`;
+
+                let precio = document.createElement("p");
+                precio.textContent = `$${producto.price}`;
+
+                div.appendChild(nombre);
+                div.appendChild(precio);
+                listaDulces.appendChild(div);
+            });
+
+
+            //lista salados
+            data.products
+            .filter(producto => producto.productCategoryId === 6)
+            .forEach(producto => {
+                let div = document.createElement("div");
+                div.classList.add("product");
+
+                let nombre = document.createElement("p");
+                nombre.textContent = `${producto.name}`;
+
+                let precio = document.createElement("p");
+                precio.textContent = `$${producto.price}`;
+
+                div.appendChild(nombre);
+                div.appendChild(precio);
+                listaSalados.appendChild(div);
+            });
+  
+
+
             // Mostrar productos de la categoría con type: "destacados-dobles"
             data.products
-                .filter(producto => producto.type === "destacado")
+                .filter(producto => producto.type === "destacadoDoble")
                 .forEach(producto => {
                     let div = document.createElement("div");
                     div.classList.add("product");
@@ -64,9 +121,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     containerDestacadoSimple.appendChild(div);
                 });
 
-            // Carrusel productos de la categoría con type: "dulces"
+            
+
+            // Mostrar productos de la categoría con type: "destacadoDulces"
             data.products
-                .filter(producto => producto.type === "dulces")
+                .filter(producto => producto.type === "destacadoDulces")
                 .forEach(producto => {
                     let div = document.createElement("div");
                     div.classList.add("product");
@@ -87,7 +146,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     containerDulce.appendChild(div);
                 });
 
-            // CarruselMostrar productos de la categoría con type: "salados"
+
+            // Mostrar productos de la categoría con type: "salados"
             data.products
                 .filter(producto => producto.type === "salados")
                 .forEach(producto => {
@@ -111,6 +171,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
 
             
+
+
+
+
             // Mostrar productos de la categoría con type: "todoDulces"
             data.products
                 .filter(producto => producto.type === "todoDulces")
@@ -129,43 +193,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     containerTodoDulce.appendChild(div);
                 });
 
-            // Mostrar lista productos de la categoría con productCategoryId: 7
-            data.products
-                .filter(producto => producto.productCategoryId === 7)
-                .forEach(producto => {
-                    let div = document.createElement("div");
-                    div.classList.add("product");
 
-                    let nombre = document.createElement("p");
-                    nombre.textContent = `${producto.name}`;
-
-                    let precio = document.createElement("p");
-                    precio.textContent = `$${producto.price}`;
-
-                    div.appendChild(nombre);
-                    div.appendChild(precio);
-                    listaCafe.appendChild(div);
-                });
-
-                
-            // Mostrar lista productos de la categoría con type: "bebidas"
-            data.products
-                .filter(producto => producto.type === "bebidas")
-                .forEach(producto => {
-                    let div = document.createElement("div");
-                    div.classList.add("product");
-
-                    let nombre = document.createElement("p");
-                    nombre.textContent = `${producto.name}`;
-
-                    let precio = document.createElement("p");
-                    precio.textContent = `$${producto.price}`;
-
-                    div.appendChild(nombre);
-                    div.appendChild(precio);
-                    listaBebidas.appendChild(div);
-                });
-
+       
                 
 
             $('.vitrina').owlCarousel({

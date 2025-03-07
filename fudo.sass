@@ -15,6 +15,7 @@ $fuente-secundaria: "Montserrat", serif
     display: flex
     flex-flow: column
     justify-content: center
+    align-items: center
 
 *
     font-family: $fuente-primaria
@@ -166,12 +167,14 @@ section
 #destacadoDulces,
 #bebidas,
 #seccionDulce,
-#todoDulces,
+#listaDulces,
 #seccionCafe,
 #seccionSalado,
 #destacadoSalado,
-#listasCafe,
-#listaBebidas
+#listaCafe,
+#listaBebidas,
+#listaDulces,
+#listaSalados
     display: flex
     flex-wrap: wrap
     width: 100%
@@ -180,9 +183,11 @@ section
     gap: 10px
 
 #bebidas,
-#todoDulces,
 #listasCafe,
-#listaBebidas
+#listaBebidas,
+#listaCafe,
+#listaDulces,
+#listaSalados
     gap: 20px
     margin-bottom: 20px
     .product
@@ -193,6 +198,14 @@ section
         gap: 20px
         border-bottom: 1px dotted white
         border-radius: 0
+        p
+            width: 48% !important
+            &:nth-child(2)
+                font-family: $fuente-primaria
+                letter-spacing: 2px
+                font-size: 1.5rem !important
+                width: 40% !important
+                text-align: right
         
         
 //acordeon
@@ -221,3 +234,13 @@ section
 .accordion-trigger:hover
     cursor: pointer
     text-align: left
+
+footer
+    width: 100%
+    margin-bottom: 20px
+    a
+        @include flex-center-colunm()
+    img
+        width: 60px
+        filter: invert(1)
+    
