@@ -405,7 +405,6 @@
             "type": "bebidas",
             "price": 2500.0,
             "productCategoryId": 10,
-            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -418,7 +417,6 @@
             "position": 7200000,
             "price": 1000.0,
             "productCategoryId": 10,
-            "type": "bebidas",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp",
