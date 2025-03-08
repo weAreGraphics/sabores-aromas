@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Mostrar productos de la categoría con type: "destacados-dobles"
             data.products
-                .filter(producto => producto.productGroups === "destacadoDoble")
+                .filter(producto => producto.type === "destacadoDoble")
                 .forEach(producto => {
                     let div = document.createElement("div");
                     div.classList.add("product");
