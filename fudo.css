@@ -169,6 +169,10 @@ section .irAtodo {
 #listaProductos {
   margin-bottom: 20px;
 }
+#listaProductos .masMenos {
+  font-size: 48px !important;
+  font-weight: 800;
+}
 
 #destacadoDulces,
 #destacadoSalado {
@@ -283,6 +287,10 @@ section .irAtodo {
   margin-bottom: 10px;
   border-radius: 10px;
   padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
 }
 
 .accordion-trigger:hover {

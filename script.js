@@ -298,12 +298,15 @@ document.addEventListener("DOMContentLoaded", () => {
                 $('.accordion').on('click', '.accordion-trigger', function(e) {
                     e.preventDefault();
 
-                    $('.accordion-content:visible').slideUp(600);
+                    let $trigger = $(this);
+                    let $content = $trigger.next('.accordion-content');
+                    let $icon = $trigger.find('.masMenos');
 
-                    $(this)
-                        .next('.accordion-content')
-                        .not(':animated')
-                        .slideToggle(300);
+                    $('.accordion-content:visible').not($content).slideUp(600).prev().find('.masMenos').text('+');
+
+                    $content.slideToggle(300, function() {
+                        $icon.text($content.is(':visible') ? '-' : '+');
+                    });
                 });
             });
 
