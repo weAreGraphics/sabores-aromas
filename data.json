@@ -588,7 +588,7 @@
             "isAvailable": true,
             "description": "",
             "id": 26,
-            "name": "Americano Simple",
+            "name": "Café Americano",
             "position": 700000,
             "price": 2000.0,
             "productCategoryId": 7,
@@ -601,7 +601,7 @@
             "isAvailable": true,
             "description": "",
             "id": 39,
-            "name": "helado Simple",
+            "name": "Café helado Simple",
             "position": 800000,
             "price": 3900.0,
             "productCategoryId": 7,
@@ -787,7 +787,7 @@
             "name": "Carlotta",
             "position": 8400000,
             "price": 1500.0,
-            "productCategoryId": 5,
+            "_productCategoryId": 5,
             "type": "",
             "productGroups": [],
             "sellAlone": true,
@@ -1034,7 +1034,7 @@
             "name": "Panqueque de naranja",
             "position": 8500000,
             "price": 2000.0,
-            "productCategoryId": 5,
+            "_productCategoryId": 5,
             "type": "",
             "productGroups": [],
             "sellAlone": true,
@@ -1086,12 +1086,11 @@
             "name": "Torta",
             "position": 10400000,
             "price": 12000.0,
-            "productCategoryId": 5,
+            "_productCategoryId": 5,
             "type": "",
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/cafe/cafe-cappuccino.webp",
-            "type": "dulces"
+            "image": "img/productos/cafe/cafe-cappuccino.webp"
         },
         {
             "isAvailable": true,
@@ -1104,8 +1103,7 @@
             "type": "",
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/cafe/cafe-cappuccino.webp",
-            "type": "dulces"
+            "image": "img/productos/cafe/cafe-cappuccino.webp"
         },
         {
             "isAvailable": true,
@@ -1127,7 +1125,7 @@
             "name": "Torta del día mediana",
             "position": 4700000,
             "price": 2700.0,
-            "productCategoryId": 5,
+            "_productCategoryId": 5,
             "type": "",
             "productGroups": [],
             "sellAlone": true,
@@ -1137,7 +1135,7 @@
             "isAvailable": true,
             "description": null,
             "id": 115,
-            "name": "Torta de naranja trozo",
+            "_name": "Torta de naranja trozo",
             "position": 10600000,
             "price": 2000.0,
             "productCategoryId": 5,
@@ -1153,12 +1151,11 @@
             "name": "Trozo torta de yogurt",
             "position": 11400000,
             "price": 2500.0,
-            "productCategoryId": 5,
+            "_productCategoryId": 5,
             "type": "",
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/dulces/torta-azul.webp",
-            "type": "dulces"
+            "image": "img/productos/dulces/torta-azul.webp"
         },
         {
             "isAvailable": true,
