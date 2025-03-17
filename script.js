@@ -309,7 +309,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     });
                 });
             });
-
         })
         .catch(error => console.error("Error al cargar API:", error));
 });
