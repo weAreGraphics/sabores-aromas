@@ -224,6 +224,16 @@ section .irAtodo {
   gap: 10px;
 }
 
+#seccionCafe img,
+#seccionDulce img {
+  width: 90px;
+}
+
+#destacados-simple img,
+#destacadoDulces img {
+  width: 100%;
+}
+
 #bebidas,
 #listasCafe,
 #listaBebidas,
