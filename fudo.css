@@ -140,7 +140,7 @@ nav .nav-pricipal section {
   color: white;
   font-weight: 600;
   display: block;
-  font-size: 1rem;
+  font-size: 1.3rem !important;
   border-radius: 8px;
 }
 .product p:nth-child(3) {
