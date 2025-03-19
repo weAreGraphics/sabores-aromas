@@ -801,10 +801,10 @@
             "position": 8700000,
             "price": 2000.0,
             "productCategoryId": 5,
-            "type": "",
+            "type": "destacadoDulces",
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/cafe/cafe-cappuccino.webp"
+            "image": "img/productos/dulces/carrotcake.webp"
         },
         {
             "isAvailable": true,
@@ -814,10 +814,10 @@
             "position": 3300000,
             "price": 3000.0,
             "productCategoryId": 5,
-            "type": "",
+            "type": "destacadoDulces",
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/cafe/cafe-cappuccino.webp"
+            "image": "img/productos/dulces/cheesecake.webp"
         },
         {
             "isAvailable": true,
@@ -827,7 +827,7 @@
             "position": 11500000,
             "price": 3000.0,
             "productCategoryId": 5,
-            "type": "destacadoDulces",
+            "type": "",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -892,10 +892,10 @@
             "position": 11900000,
             "price": 1500.0,
             "productCategoryId": 5,
-            "type": "",
+            "type": "destacadoDulces",
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/cafe/cafe-cappuccino.webp"
+            "image": "img/productos/dulces/medialuna.webp"
         },
         {
             "isAvailable": true,
@@ -944,7 +944,7 @@
             "position": 9300000,
             "price": 1900.0,
             "productCategoryId": 5,
-             "type": "destacadoDulces",
+             "type": "",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -960,7 +960,7 @@
              "type": "destacadoDulces",
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/cafe/cafe-cappuccino.webp"
+            "image": "img/productos/dulces/muffin-chocolate.webp"
         },
         {
             "isAvailable": true,
@@ -970,7 +970,7 @@
             "position": 9000000,
             "price": 1900.0,
             "productCategoryId": 5,
-             "type": "destacadoDulces",
+             "type": "",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -983,7 +983,7 @@
             "position": 9400000,
             "price": 1900.0,
             "productCategoryId": 5,
-            "type": "destacadoDulces",
+            "type": "",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -1100,10 +1100,10 @@
             "position": 4600000,
             "price": 1500.0,
             "productCategoryId": 5,
-            "type": "",
+            "type": "destacadoDulces",
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/cafe/cafe-cappuccino.webp"
+            "image": "img/productos/dulces/torta-alulosa.webp"
         },
         {
             "isAvailable": true,
@@ -1113,10 +1113,10 @@
             "position": 400000,
             "price": 3000.0,
             "productCategoryId": 5,
-            "type": "",
+            "type": "destacadoDulces",
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/cafe/cafe-cappuccino.webp"
+            "image": "img/productos/dulces/torta-del-dia.webp"
         },
         {
             "isAvailable": true,
