@@ -51,11 +51,17 @@ header p {
 }
 
 nav {
-  width: 100%;
-  position: sticky;
-  top: 0;
-  background-color: #000000;
+  width: 90%;
+  position: fixed;
+  bottom: 30px;
+  background-color: #202020;
   z-index: 9;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  border-radius: 20px;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -66,7 +72,7 @@ nav .nav-pricipal {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 nav .nav-pricipal a {
   text-decoration: none;
@@ -79,12 +85,12 @@ nav .nav-pricipal a section {
   gap: 10px;
 }
 nav .nav-pricipal a section img {
-  width: 80px;
+  width: 60px;
   -o-object-fit: contain;
      object-fit: contain;
 }
 nav .nav-pricipal a section p {
-  font-size: 1.6rem !important;
+  font-size: 1.4rem !important;
   margin-top: -10px;
 }
 nav .nav-pricipal section {
@@ -305,7 +311,7 @@ section .irAtodo {
 
 footer {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 150px;
 }
 footer a {
   display: flex;
