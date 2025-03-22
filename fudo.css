@@ -187,11 +187,13 @@ section .irAtodo {
 }
 
 #destacadoDulces,
-#destacadoSalado {
+#destacadoSalado,
+#destacadoSalados {
   margin-bottom: 20px;
 }
 #destacadoDulces .product,
-#destacadoSalado .product {
+#destacadoSalado .product,
+#destacadoSalados .product {
   width: 80%;
   display: flex;
   flex-flow: column;
@@ -224,14 +226,10 @@ section .irAtodo {
   gap: 10px;
 }
 
-#seccionCafe img,
-#seccionDulce img {
+#seccionCafe .destacada,
+#seccionDulce .destacada,
+#seccionSalado .destacada {
   width: 90px;
-}
-
-#destacados-simple img,
-#destacadoDulces img {
-  width: 100%;
 }
 
 #bebidas,

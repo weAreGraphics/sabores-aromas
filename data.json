@@ -727,10 +727,11 @@
             "name": "Mocachino Simple",
             "position": 2800000,
             "price": 2900.0,
+            "type": "destacadoSimple",
             "productCategoryId": 7,
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/cafe/cafe-cappuccino.webp"
+            "image": "img/productos/cafe/mokacccino.webp"
         },
         {
             "isAvailable": true,
@@ -1213,7 +1214,7 @@
             "position": 3200000,
             "price": 2000.0,
             "productCategoryId": 6,
-            "type": "salados",
+            "type": "",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -1226,7 +1227,7 @@
             "position": 10900000,
             "price": 2990.0,
             "productCategoryId": 6,
-            "type": "salados",
+            "type": "",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -1236,12 +1237,13 @@
             "description": "",
             "id": 20,
             "name": "Emp. carne mechada",
+            "type": "salados",
             "position": 3500000,
             "price": 2300.0,
             "productCategoryId": 6,
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/cafe/cafe-cappuccino.webp"
+            "image": "img/productos/salados/mechada-queso.webp"
         },
         {
             "isAvailable": true,
@@ -1254,19 +1256,20 @@
             "type": "salados",
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/cafe/cafe-cappuccino.webp"
+            "image": "img/productos/salados/espinaca-queso.webp"
         },
         {
             "isAvailable": true,
             "description": "",
             "id": 22,
             "name": "Emp. napolitana",
+            "type": "salados",
             "position": 3700000,
             "price": 2300.0,
             "productCategoryId": 6,
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/cafe/cafe-cappuccino.webp"
+            "image": "img/productos/salados/napolitana.webp"
         },
         {
             "isAvailable": true,
@@ -1276,7 +1279,7 @@
             "position": 3800000,
             "price": 2800.0,
             "productCategoryId": 6,
-            "type": "salados",
+            "type": "",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/cafe/cafe-cappuccino.webp"
@@ -1372,10 +1375,11 @@
             "name": "Sand. ciabatta Jamón queso",
             "position": 4400000,
             "price": 2000.0,
+            "type": "salados",
             "productCategoryId": 6,
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/cafe/cafe-cappuccino.webp"
+            "image": "img/productos/salados/ciabatta-jamon-queso.webp"
         },
         {
             "isAvailable": true,
@@ -1456,10 +1460,11 @@
             "name": "Chocolate Caliente",
             "position": 7800000,
             "price": 2600.0,
+            "type": "destacadoSimple",
             "productCategoryId": 11,
             "productGroups": [],
             "sellAlone": true,
-            "image": "img/productos/cafe/cafe-cappuccino.webp"
+            "image": "img/productos/cafe/chocolate-caliente.webp"
         }
     ],
     "productCategories": [
@@ -1516,7 +1521,7 @@
         },
         {
             "id": 6,
-            "name": "Salados",
+            "name": "",
             "parentId": null,
             "position": 700000,
             "iconName": null
