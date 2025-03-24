@@ -187,12 +187,10 @@ section .irAtodo {
 }
 
 #destacadoDulces,
-#destacadoSalado,
 #destacadoSalados {
   margin-bottom: 20px;
 }
 #destacadoDulces .product,
-#destacadoSalado .product,
 #destacadoSalados .product {
   width: 80%;
   display: flex;
