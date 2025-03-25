@@ -186,6 +186,11 @@ section .titulo {
   text-align: center;
   margin-bottom: 0;
 }
+@media (min-width: 600px) {
+  section .titulo {
+    font-size: 3.3rem;
+  }
+}
 section .irAtodo {
   font-family: "Rangile";
   text-align: center;
@@ -283,6 +288,13 @@ section .irAtodo {
 #seccionDulce .destacada,
 #seccionSalado .destacada {
   width: 90px;
+}
+@media (min-width: 600px) {
+  #seccionCafe .destacada,
+  #seccionDulce .destacada,
+  #seccionSalado .destacada {
+    width: 180px;
+  }
 }
 
 #bebidas,
