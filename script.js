@@ -1,8 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const newUrl = "https://google.cl";
-    history.pushState({ page: "nueva-url" }, "https://google.cl", newUrl);
-
-    console.log("La URL ha cambiado automáticamente a:", newUrl);
+    history.pushState(null, "", "www.cartaSabores&aromas.html");
     fetch("data.json") // Cambia esto por tu URL real de API
         .then(response => {
             if (!response.ok) throw new Error(`Error HTTP: ${response.status}`);
