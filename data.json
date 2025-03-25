@@ -729,6 +729,7 @@
             "position": 2800000,
             "price": 2900.0,
             "type":"destacadoSimple",
+            "vitrina": "vitrina",
             "productCategoryId": 7,
             "productGroups": [],
             "sellAlone": true,
@@ -895,6 +896,7 @@
             "price": 1500.0,
             "productCategoryId": 5,
             "type": "destacadoDulces",
+            "vitrina": "vitrina",
             "productGroups": [],
             "sellAlone": true,
             "image": "img/productos/dulces/medialuna.webp"
@@ -1251,6 +1253,7 @@
             "description": "",
             "id": 21,
             "name": "Emp. espinaca queso",
+            "vitrina": "vitrina",
             "position": 3600000,
             "price": 2300.0,
             "productCategoryId": 6,

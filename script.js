@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
             let containerSalados = document.getElementById("destacadoSalados");
             //let containerBebidas = document.getElementById("bebidas");
             let containerDestacadoSimple = document.getElementById("destacados-simple");
-            let containerDestacadoDoble = document.getElementById("destacados-dobles");
+            let containerVitrina = document.getElementById("vitrina-uno");
             //let categories = document.getElementById("categorias");
 
             //lista café  
@@ -113,9 +113,9 @@ document.addEventListener("DOMContentLoaded", () => {
   
 
 
-            // Mostrar productos de la categoría con type: "destacados-dobles"
+            // Mostrar productos de la categoría con type: "vitrina"
             data.products
-                .filter(producto => producto.type === "destacadoDoble")
+                .filter(producto => producto.vitrina === "vitrina")
                 .forEach(producto => {
                     let div = document.createElement("div");
                     div.classList.add("product");
@@ -124,16 +124,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     img.src = producto.image ? producto.image : "https://via.placeholder.com/50";
                     img.alt = producto.name;
 
-                    let nombre = document.createElement("p");
-                    nombre.textContent = `${producto.name}`;
-
-                    let precio = document.createElement("p");
-                    precio.textContent = `$${producto.price}`;
-
                     div.appendChild(img);
-                    div.appendChild(nombre);
-                    div.appendChild(precio);
-                    containerDestacadoDoble.appendChild(div);
+                    containerVitrina.appendChild(div);
                 });
 
             // Mostrar productos de la categoría con type: "destacados-simple"
@@ -159,6 +151,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     containerDestacadoSimple.appendChild(div);
                 });
 
+
+        
             
 
             // Mostrar productos de la categoría con type: "destacadoDulces"
@@ -235,30 +229,55 @@ document.addEventListener("DOMContentLoaded", () => {
        
                 
 
-            $('.vitrina').owlCarousel({
+            $('#vitrina-uno').owlCarousel({
                 loop: true,
                 margin: 10,
                 nav: false,
+                smartSpeed: 2000,
                 autoplay: true,
-                autoplayTimeout: 3000,
+                autoplayTimeout: 5000,
                 responsive: {
                     0: {
                         items: 1
                     },
                     600: {
-                        items: 2
+                        items: 1
                     },
                     1000: {
-                        items: 5
+                        items: 4
                     }
                 }
             });
+
+
+            $('#promociones').owlCarousel({
+                loop: true,
+                margin: 10,
+                dots: false,
+                dotsEach: false,
+                smartSpeed: 1000,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            });
+
 
             $('#destacadoDulces').owlCarousel({
                 loop: true,
                 margin: 10,
                 nav: false,
                 autoplay: true,
+                smartSpeed: 1000,
                 autoplayTimeout: 5000,
                 responsive: {
                     0: {
@@ -279,12 +298,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 nav: false,
                 autoplay: true,
                 autoplayTimeout: 5000,
+                smartSpeed: 2000,
                 responsive: {
                     0: {
                         items: 1
                     },
                     600: {
-                        items: 3
+                        items: 1
                     },
                     1000: {
                         items: 4
