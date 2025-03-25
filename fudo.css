@@ -143,6 +143,8 @@ nav .nav-pricipal section {
   font-size: 1rem !important;
   border-radius: 8px;
   text-align: left;
+  height: 50px;
+  width: 80%;
 }
 .product p:nth-child(3) {
   color: white;
@@ -198,6 +200,11 @@ section .irAtodo {
   justify-content: center;
   align-items: center;
   margin: auto;
+}
+#destacadoDulces .product p,
+#destacadoSalados .product p {
+  font-size: 1.5rem !important;
+  height: auto !important;
 }
 
 #destacados-dobles,
