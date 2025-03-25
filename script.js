@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    history.pushState(null, "", "www.cartaSabores&aromas.html");
     fetch("data.json") // Cambia esto por tu URL real de API
         .then(response => {
             if (!response.ok) throw new Error(`Error HTTP: ${response.status}`);
@@ -245,7 +244,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         items: 1
                     },
                     1000: {
-                        items: 4
+                        items: 3
                     }
                 }
             });
@@ -264,10 +263,10 @@ document.addEventListener("DOMContentLoaded", () => {
                         items: 1
                     },
                     600: {
-                        items: 1
+                        items: 2
                     },
                     1000: {
-                        items: 4
+                        items: 6
                     }
                 }
             });

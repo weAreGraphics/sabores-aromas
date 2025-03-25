@@ -27,13 +27,13 @@ $fuente-secundaria: "Montserrat", serif
 html
     background-color: black
     scroll-behavior: smooth
-    
+
+
 p
     font-size: 1rem !important
 body
     @include flex-center-colunm()
     align-items: center
-    display: none
     @media (max-width: 600px)
         display: flex
 
@@ -76,6 +76,8 @@ nav
     border-radius: 20px
     @include flex-center-colunm()
     align-items: center
+    @media (min-width: 600px)
+        width: 25%
     .nav-pricipal
         @include flex-center()
         gap: 30px
@@ -90,11 +92,17 @@ nav
                 img
                     width: 50px
                     object-fit: contain
+                @media (min-width: 600px)
+                    img
+                        width: 100px
                 p
                     font-size: 1.2rem !important
                     margin-top: -10px
         section
             margin-bottom: 0px
+    
+
+
 .nav-secundario  
     width: 90%
     display: flex
@@ -141,6 +149,8 @@ nav
         text-align: left
         height: 50px
         width: 80%
+        @media (min-width: 600px)
+            font-size: 2.3rem
         &:nth-child(3)
             color: white
             padding: 0 0
@@ -172,7 +182,19 @@ section
         display: flex
         text-decoration: none
 
-.vitrina
+#destacados-simple
+    gap: 40px 
+    @media (min-width: 600px)
+        gap: 0px
+    .product
+        width: 45%
+        @media (min-width: 600px)
+            gap: 40px
+            width: 25%
+    @media (min-width: 600px)
+        p
+            font-size: 1.5rem !important
+
 
 #listaProductos
     margin-bottom: 20px
@@ -226,6 +248,12 @@ section
     align-items: flex-start
     gap: 10px
 
+
+    
+    
+
+
+    
 #seccionCafe,
 #seccionDulce,
 #seccionSalado
