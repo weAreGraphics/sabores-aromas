@@ -203,29 +203,6 @@ section .irAtodo {
   text-decoration: none;
 }
 
-#destacados-simple {
-  gap: 40px;
-}
-@media (min-width: 600px) {
-  #destacados-simple {
-    gap: 0px;
-  }
-}
-#destacados-simple .product {
-  width: 45%;
-}
-@media (min-width: 600px) {
-  #destacados-simple .product {
-    gap: 40px;
-    width: 25%;
-  }
-}
-@media (min-width: 600px) {
-  #destacados-simple p {
-    font-size: 1.5rem !important;
-  }
-}
-
 #listaProductos {
   margin-bottom: 20px;
 }
@@ -285,6 +262,17 @@ section .irAtodo {
   justify-content: center;
   align-items: flex-start;
   gap: 10px;
+}
+
+@media (min-width: 600px) {
+  #destacados-simple .product {
+    width: 25%;
+  }
+}
+@media (min-width: 600px) {
+  #destacados-simple {
+    gap: 40px !important;
+  }
 }
 
 #seccionCafe .destacada,

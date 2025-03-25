@@ -182,18 +182,7 @@ section
         display: flex
         text-decoration: none
 
-#destacados-simple
-    gap: 40px 
-    @media (min-width: 600px)
-        gap: 0px
-    .product
-        width: 45%
-        @media (min-width: 600px)
-            gap: 40px
-            width: 25%
-    @media (min-width: 600px)
-        p
-            font-size: 1.5rem !important
+
 
 
 #listaProductos
@@ -247,6 +236,14 @@ section
     justify-content: center
     align-items: flex-start
     gap: 10px
+
+#destacados-simple
+    .product
+        @media (min-width: 600px)
+            width: 25%
+    @media (min-width: 600px)
+        gap: 40px !important
+
 
 
     
