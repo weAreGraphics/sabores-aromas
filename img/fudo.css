@@ -9,6 +9,10 @@ html {
   scroll-behavior: smooth;
 }
 
+p {
+  font-size: 1rem !important;
+}
+
 body {
   display: flex;
   flex-flow: column;
@@ -154,7 +158,7 @@ nav .nav-pricipal section {
   color: white;
   font-weight: 600;
   display: block;
-  font-size: 1rem;
+  font-size: 1rem !important;
   border-radius: 8px;
   text-align: left;
   height: 50px;
@@ -263,14 +267,6 @@ section .irAtodo {
 @media (min-width: 600px) {
   #destacados-simple .product {
     width: 25%;
-  }
-}
-#destacados-simple .product p {
-  font-size: 1rem;
-}
-@media (min-width: 600px) {
-  #destacados-simple .product p {
-    font-size: 2rem;
   }
 }
 @media (min-width: 600px) {

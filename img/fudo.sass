@@ -28,6 +28,9 @@ html
     background-color: black
     scroll-behavior: smooth
 
+
+p
+    font-size: 1rem !important
 body
     @include flex-center-colunm()
     align-items: center
@@ -141,7 +144,7 @@ nav
         color: white
         font-weight: 600
         display: block
-        font-size: 1rem
+        font-size: 1rem !important
         border-radius: 8px
         text-align: left
         height: 50px
@@ -238,11 +241,6 @@ section
     .product
         @media (min-width: 600px)
             width: 25%
-        p
-            font-size: 1rem
-            @media (min-width: 600px)
-                font-size: 2rem
-            
     @media (min-width: 600px)
         gap: 40px !important
 
