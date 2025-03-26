@@ -387,6 +387,11 @@ footer {
   width: 100%;
   margin-bottom: 130px;
 }
+@media (min-width: 600px) {
+  footer {
+    margin-bottom: 170px;
+  }
+}
 footer a {
   display: flex;
   flex-flow: column;
